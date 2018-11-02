@@ -1,0 +1,14 @@
+name: dartvsnode
+version: 0.0.1
+description: >-
+  stress test comparison across 
+  dart and javascript (node.js) languages
+author: Egor Mikheev <mikheev.egor@gmail.com>
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+dependencies:
+  queries: ^0.1.4
+  protobuf: "^0.10.4"
+dev_dependencies:
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0

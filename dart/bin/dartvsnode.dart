@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'dart:async';
 import 'package:dartvsnode/src/routes/routes.dart' as handlers;
+import 'dart:convert' show json;
 
 Future main() async {
   var server = await HttpServer.bind(
@@ -19,6 +20,12 @@ Future main() async {
           break;
         case '2':
           handlers.test2(request);
+          break;
+        case '3':
+          var humans = await handlers.test3();
+          request.response
+            ..write(humans)
+            ..close();
           break;
         default:
           handlers.defaultHandler(request);

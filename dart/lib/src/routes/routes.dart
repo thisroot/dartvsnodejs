@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:async';
 import 'package:dartvsnode/src/models/models.dart' as models;
 import 'package:dartvsnode/src/utils/fake.dart';
 import 'dart:convert' show json;
@@ -23,6 +24,17 @@ void test2(HttpRequest request) {
   request.response
     ..write(json.encode(humans))
     ..close();
+}
+
+Future<String> test3() {
+  int count = 10000;
+  var humans = List<models.Human>();
+
+  for (int i = 0; i < count; i++) {
+    humans.add(models.Human(i, getRandomLiterals(firstnames),
+        getRandomLiterals(lastnames), rand.nextInt(60), rand.nextBool()));
+  }
+  return Future.value(json.encode(humans));
 }
 
 void defaultHandler(HttpRequest request) {

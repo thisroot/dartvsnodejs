@@ -34,8 +34,4 @@ const lastnames = const [
 
 var rand = math.Random();
 
-int getRandomArbitrary(int min, int max) =>
-    (rand.nextInt(1) * (max - min) + min | 0);
-
-String getRandomLiterals(List<String> list) =>
-    list[getRandomArbitrary(0, list.length)];
+String getRandomLiterals(List<String> list) => list[rand.nextInt(list.length)];

@@ -1,1 +1,36 @@
-[{"totalRequests":6067,"totalErrors":0,"totalTimeSeconds":16.293587600000002,"rps":372,"meanLatencyMs":4,"maxLatencyMs":31,"minLatencyMs":2,"percentiles":{"50":3,"90":4,"95":5,"99":6},"errorCodes":{},"instanceIndex":0},{"totalRequests":10659,"totalErrors":0,"totalTimeSeconds":9.9999264,"rps":1066,"meanLatencyMs":3.4,"maxLatencyMs":21,"minLatencyMs":1,"percentiles":{"50":3,"90":4,"95":4,"99":5},"errorCodes":{},"instanceIndex":1}]
+[
+  {
+    "totalRequests": 366,
+    "totalErrors": 0,
+    "totalTimeSeconds": 20.0449207,
+    "rps": 18,
+    "meanLatencyMs": 54.6,
+    "maxLatencyMs": 455,
+    "minLatencyMs": 41,
+    "percentiles": {
+      "50": 46,
+      "90": 71,
+      "95": 78,
+      "99": 89
+    },
+    "errorCodes": {},
+    "instanceIndex": 0
+  },
+  {
+    "totalRequests": 623,
+    "totalErrors": 0,
+    "totalTimeSeconds": 20.000311700999998,
+    "rps": 31,
+    "meanLatencyMs": 32,
+    "maxLatencyMs": 82,
+    "minLatencyMs": 25,
+    "percentiles": {
+      "50": 30,
+      "90": 37,
+      "95": 39,
+      "99": 49
+    },
+    "errorCodes": {},
+    "instanceIndex": 1
+  }
+]

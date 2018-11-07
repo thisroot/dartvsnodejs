@@ -1,14 +1,15 @@
-let models = require('../models')
-let utils = require('../utils')
+let models = require("../models");
+let utils = require("../utils");
 
 module.exports.test1 = response => {
-  response.end('Hello, world!')
-}
+  response.end("Hello, world!");
+};
+
+const countHumans = 1000;
 
 module.exports.test2 = response => {
-  const count = 10000
-  let humans = []
-  for (let index = 0; index < count; index++) {
+  let humans = [];
+  for (let index = 0; index < countHumans; index++) {
     humans.push(
       new models.Human(
         index,
@@ -17,17 +18,16 @@ module.exports.test2 = response => {
         (Math.random() * 30) | 0
       ),
       !!Math.random()
-    )
+    );
   }
-  response.setHeader('Content-Type', 'application/json')
-  response.end(JSON.stringify(humans))
-}
+  response.setHeader("Content-Type", "application/json");
+  response.end(JSON.stringify(humans));
+};
 
 module.exports.test3 = params => {
   return new Promise(resolve => {
-    const count = 10000
-    let humans = []
-    for (let index = 0; index < count; index++) {
+    let humans = [];
+    for (let index = 0; index < countHumans; index++) {
       humans.push(
         new models.Human(
           index,
@@ -36,12 +36,12 @@ module.exports.test3 = params => {
           (Math.random() * 30) | 0
         ),
         !!Math.random()
-      )
+      );
     }
-    resolve(humans)
-  })
-}
+    resolve(humans);
+  });
+};
 
 module.exports.defaultHandler = module.exports.defaultHandler = response => {
-  response.end('DartVsNodejs')
-}
+  response.end("DartVsNodejs");
+};

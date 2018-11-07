@@ -1,19 +1,104 @@
 [
   {
-    "totalRequests": 1000,
+    "totalRequests": 14056,
     "totalErrors": 0,
-    "totalTimeSeconds": 68.09568469999999,
-    "rps": 15,
-    "meanLatencyMs": 68,
-    "maxLatencyMs": 232,
-    "minLatencyMs": 41,
+    "totalTimeSeconds": 60.013516499999994,
+    "rps": 234,
+    "meanLatencyMs": 4.2,
+    "maxLatencyMs": 114,
+    "minLatencyMs": 3,
     "percentiles": {
-      "50": 62,
-      "90": 88,
-      "95": 101,
-      "99": 130
+      "50": 4,
+      "90": 4,
+      "95": 4,
+      "99": 6
     },
     "errorCodes": {},
     "instanceIndex": 0
+  },
+  {
+    "totalRequests": 10922,
+    "totalErrors": 0,
+    "totalTimeSeconds": 59.999510199999996,
+    "rps": 182,
+    "meanLatencyMs": 5.5,
+    "maxLatencyMs": 18,
+    "minLatencyMs": 4,
+    "percentiles": {
+      "50": 5,
+      "90": 5,
+      "95": 6,
+      "99": 8
+    },
+    "errorCodes": {},
+    "instanceIndex": 1
+  },
+  {
+    "totalRequests": 14514,
+    "totalErrors": 0,
+    "totalTimeSeconds": 60.000760199,
+    "rps": 242,
+    "meanLatencyMs": 4.1,
+    "maxLatencyMs": 103,
+    "minLatencyMs": 3,
+    "percentiles": {
+      "50": 3,
+      "90": 4,
+      "95": 4,
+      "99": 6
+    },
+    "errorCodes": {},
+    "instanceIndex": 2
+  },
+  {
+    "totalRequests": 15069,
+    "totalErrors": 0,
+    "totalTimeSeconds": 60.000023999999996,
+    "rps": 251,
+    "meanLatencyMs": 4,
+    "maxLatencyMs": 16,
+    "minLatencyMs": 3,
+    "percentiles": {
+      "50": 3,
+      "90": 4,
+      "95": 4,
+      "99": 5
+    },
+    "errorCodes": {},
+    "instanceIndex": 3
+  },
+  {
+    "totalRequests": 20510,
+    "totalErrors": 0,
+    "totalTimeSeconds": 59.9994786,
+    "rps": 342,
+    "meanLatencyMs": 2.9,
+    "maxLatencyMs": 16,
+    "minLatencyMs": 2,
+    "percentiles": {
+      "50": 2,
+      "90": 3,
+      "95": 3,
+      "99": 4
+    },
+    "errorCodes": {},
+    "instanceIndex": 4
+  },
+  {
+    "totalRequests": 21400,
+    "totalErrors": 0,
+    "totalTimeSeconds": 60.0002045,
+    "rps": 357,
+    "meanLatencyMs": 2.8,
+    "maxLatencyMs": 14,
+    "minLatencyMs": 2,
+    "percentiles": {
+      "50": 2,
+      "90": 3,
+      "95": 3,
+      "99": 4
+    },
+    "errorCodes": {},
+    "instanceIndex": 5
   }
 ]

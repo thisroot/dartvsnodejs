@@ -4,6 +4,8 @@ import 'package:dartvsnode/src/models/models.dart' as models;
 import 'package:dartvsnode/src/utils/fake.dart';
 import 'dart:convert' show json;
 
+final countHumans = 1000;
+
 void test1(HttpRequest request) {
   request.response
     ..write('Hello, world!')
@@ -11,10 +13,9 @@ void test1(HttpRequest request) {
 }
 
 void test2(HttpRequest request) {
-  int count = 10000;
-  var humans = List<models.Human>();
+  final humans = List<models.Human>();
 
-  for (int i = 0; i < count; i++) {
+  for (int i = 0; i < countHumans; i++) {
     humans.add(models.Human(i, getRandomLiterals(firstnames),
         getRandomLiterals(lastnames), rand.nextInt(60), rand.nextBool()));
   }
@@ -27,10 +28,9 @@ void test2(HttpRequest request) {
 }
 
 Future<String> test3() {
-  int count = 10000;
-  var humans = List<models.Human>();
+  final humans = List<models.Human>();
 
-  for (int i = 0; i < count; i++) {
+  for (int i = 0; i < countHumans; i++) {
     humans.add(models.Human(i, getRandomLiterals(firstnames),
         getRandomLiterals(lastnames), rand.nextInt(60), rand.nextBool()));
   }

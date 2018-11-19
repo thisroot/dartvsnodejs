@@ -1,62 +1,11 @@
 [
   {
-    "totalRequests": 14056,
+    "totalRequests": 15537,
     "totalErrors": 0,
-    "totalTimeSeconds": 60.013516499999994,
-    "rps": 234,
-    "meanLatencyMs": 4.2,
-    "maxLatencyMs": 114,
-    "minLatencyMs": 3,
-    "percentiles": {
-      "50": 4,
-      "90": 4,
-      "95": 4,
-      "99": 6
-    },
-    "errorCodes": {},
-    "instanceIndex": 0
-  },
-  {
-    "totalRequests": 10922,
-    "totalErrors": 0,
-    "totalTimeSeconds": 59.999510199999996,
-    "rps": 182,
-    "meanLatencyMs": 5.5,
-    "maxLatencyMs": 18,
-    "minLatencyMs": 4,
-    "percentiles": {
-      "50": 5,
-      "90": 5,
-      "95": 6,
-      "99": 8
-    },
-    "errorCodes": {},
-    "instanceIndex": 1
-  },
-  {
-    "totalRequests": 14514,
-    "totalErrors": 0,
-    "totalTimeSeconds": 60.000760199,
-    "rps": 242,
-    "meanLatencyMs": 4.1,
-    "maxLatencyMs": 103,
-    "minLatencyMs": 3,
-    "percentiles": {
-      "50": 3,
-      "90": 4,
-      "95": 4,
-      "99": 6
-    },
-    "errorCodes": {},
-    "instanceIndex": 2
-  },
-  {
-    "totalRequests": 15069,
-    "totalErrors": 0,
-    "totalTimeSeconds": 60.000023999999996,
-    "rps": 251,
-    "meanLatencyMs": 4,
-    "maxLatencyMs": 16,
+    "totalTimeSeconds": 60.027232063,
+    "rps": 259,
+    "meanLatencyMs": 3.8,
+    "maxLatencyMs": 93,
     "minLatencyMs": 3,
     "percentiles": {
       "50": 3,
@@ -65,38 +14,93 @@
       "99": 5
     },
     "errorCodes": {},
+    "instanceIndex": 0
+  },
+  {
+    "totalRequests": 21839,
+    "totalErrors": 17761,
+    "totalTimeSeconds": 60.000889373999996,
+    "rps": 364,
+    "meanLatencyMs": 2.7,
+    "maxLatencyMs": 13,
+    "minLatencyMs": 1,
+    "percentiles": {
+      "50": 2,
+      "90": 4,
+      "95": 4,
+      "99": 5
+    },
+    "errorCodes": {
+      "-1": 17761
+    },
+    "instanceIndex": 1
+  },
+  {
+    "totalRequests": 16483,
+    "totalErrors": 982,
+    "totalTimeSeconds": 60.000768601999994,
+    "rps": 275,
+    "meanLatencyMs": 3.6,
+    "maxLatencyMs": 77,
+    "minLatencyMs": 1,
+    "percentiles": {
+      "50": 3,
+      "90": 4,
+      "95": 4,
+      "99": 5
+    },
+    "errorCodes": {
+      "-1": 982
+    },
+    "instanceIndex": 2
+  },
+  {
+    "totalRequests": 16773,
+    "totalErrors": 0,
+    "totalTimeSeconds": 59.999636782,
+    "rps": 280,
+    "meanLatencyMs": 3.6,
+    "maxLatencyMs": 19,
+    "minLatencyMs": 3,
+    "percentiles": {
+      "50": 3,
+      "90": 3,
+      "95": 3,
+      "99": 5
+    },
+    "errorCodes": {},
     "instanceIndex": 3
   },
   {
-    "totalRequests": 20510,
+    "totalRequests": 23368,
     "totalErrors": 0,
-    "totalTimeSeconds": 59.9994786,
-    "rps": 342,
-    "meanLatencyMs": 2.9,
-    "maxLatencyMs": 16,
-    "minLatencyMs": 2,
+    "totalTimeSeconds": 59.999561487,
+    "rps": 389,
+    "meanLatencyMs": 2.5,
+    "maxLatencyMs": 39,
+    "minLatencyMs": 1,
     "percentiles": {
       "50": 2,
-      "90": 3,
-      "95": 3,
+      "90": 2,
+      "95": 2,
       "99": 4
     },
     "errorCodes": {},
     "instanceIndex": 4
   },
   {
-    "totalRequests": 21400,
+    "totalRequests": 21253,
     "totalErrors": 0,
-    "totalTimeSeconds": 60.0002045,
-    "rps": 357,
+    "totalTimeSeconds": 60.000528865,
+    "rps": 354,
     "meanLatencyMs": 2.8,
-    "maxLatencyMs": 14,
+    "maxLatencyMs": 16,
     "minLatencyMs": 2,
     "percentiles": {
       "50": 2,
       "90": 3,
       "95": 3,
-      "99": 4
+      "99": 3
     },
     "errorCodes": {},
     "instanceIndex": 5

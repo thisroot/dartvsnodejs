@@ -1,6 +1,52 @@
 # Dart vs Node.js
 
-### test for http servers dart, aqueduct (dart framework), node.js
+### Load test with K6io
+
+- execute for all groups grouped by service `k6 run .\k6io\testAll.js --vus 500 --rps 500 --iterations 5000`
+
+## Native Dart
+
+### 500 rps
+
+![](./img/dart.png)
+
+### 750 rps
+
+- http_reqs: 309.10154/s
+
+## Aqueduct framework for Dart
+
+### 500 rps
+
+![](./img/aqueduct.png)
+
+### 750 rps
+
+![](./img/aqueduct750.png)
+
+## Native Node.js
+
+### 500 rps
+
+![](./img/node.png)
+
+### 750 rps
+
+![](./img/node750.png)
+
+## Node Express with Cluster
+
+### 500 rps
+
+![](./img/nodeCluster.png)
+
+### 750 rps
+
+![](./img/nodeCluster750.png)
+
+## Loadtest.js
+
+### test for http servers dart, aqueduct (dart framework), node.js with loadtest.js
 
 ### results
 
